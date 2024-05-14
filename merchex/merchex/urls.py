@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
      path('hello/', views.hello),
      path('about-us/', views.about), # ajoutez cette ligne
+     path('contact/', views.contact),
+     path('help/', views.help),
 ]
